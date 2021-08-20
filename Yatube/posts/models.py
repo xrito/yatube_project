@@ -7,8 +7,8 @@ User = get_user_model()
 class Post(models.Model):
     text = models.TextField()
     pub_date = models.DateTimeField(auto_now_add=True)
-    group = models.CharField(blank=True, null=True, max_length=255)
-    # group = models.SlugField(blank=True, null=True)
+    group = models.ForeignKey(
+        'Group', on_delete=models.CASCADE, blank=True, null=True, max_length=255)
     author = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
@@ -18,9 +18,11 @@ class Post(models.Model):
 
 class Group(models.Model):
     title = models.CharField(max_length=255)
-    slug = models.SlugField(max_length=255, unique=True, db_index=True,
-                            verbose_name="URL")
-    descriptionr = models.TextField()
+    slug = models.SlugField(max_length=255, unique=True, db_index=True)
+    descriptionr = models.TextField(max_length=400)
 
     def __str__(self):
         return str(self.title)
+
+    # def get_absolute_url(self):
+    #     return Reversible("group_post", kwargs={"slug": self.slug})

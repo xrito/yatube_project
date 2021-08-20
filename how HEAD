@@ -1,0 +1,59 @@
+[33mcommit 1ca7ac1b6bc9d88c310399e90169e58e101edc22[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Дмитрий <xrito@yandex.ru>
+Date:   Fri Aug 20 21:25:21 2021 +0400
+
+    Вывод информации из базы
+
+[33mcommit 0d20ce0b6906979776ba97b235b2356127424989[m
+Author: Дмитрий <xrito@yandex.ru>
+Date:   Thu Aug 19 22:37:31 2021 +0400
+
+    ORM и модели
+
+[33mcommit f4b79a9ced62cc054af56ae8afff51d251079f07[m
+Author: Дмитрий <xrito@yandex.ru>
+Date:   Thu Aug 19 16:26:48 2021 +0400
+
+    База данных и Django ORM
+
+[33mcommit 548dc444fad9cf40b65b28d04fb0a512a23c0e11[m
+Author: Дмитрий <xrito@yandex.ru>
+Date:   Wed Aug 18 15:28:08 2021 +0400
+
+    Словарь контекста, ветвления, циклы
+
+[33mcommit c2efb0f003470cdac61167222d792c81dcc0bc6a[m
+Author: Дмитрий <xrito@yandex.ru>
+Date:   Wed Aug 18 14:29:46 2021 +0400
+
+    Разбиваем шаблоны: include, block, extends
+
+[33mcommit 082206cb8141a3234b602dee8c1578454626ec0a[m
+Author: Дмитрий <xrito@yandex.ru>
+Date:   Tue Aug 17 16:32:57 2021 +0400
+
+    Добавлены urls и view-функции
+
+[33mcommit d394f17103d708ca08206d3ee7831a75e9cfc1c9[m
+Author: Дмитрий <xrito@yandex.ru>
+Date:   Tue Aug 17 14:58:44 2021 +0400
+
+    2_commit
+
+[33mcommit 378ca7c21ca468df0652fabad92a2dcab24b2db8[m
+Author: Дмитрий <xrito@yandex.ru>
+Date:   Mon Aug 16 21:48:08 2021 +0400
+
+    Создание структуры проекта
+
+[33mcommit cca0af7fa834ba5f1e1c42f6e38245cd21d37737[m
+Author: Дмитрий <xrito@yandex.ru>
+Date:   Mon Aug 16 21:32:27 2021 +0400
+
+    1_commit
+
+[33mcommit 5a4dac313e18dd311517508fcf6afc66c58bbe5c[m
+Author: xrito <88393376+xrito@users.noreply.github.com>
+Date:   Mon Aug 16 20:08:39 2021 +0400
+
+    Initial commit
